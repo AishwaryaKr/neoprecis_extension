@@ -1,0 +1,6 @@
+step	reason	n_epitopes_lost	n_cores_lost
+no_mhc_score	epitope×allele not in NetMHCpan output	3	—
+missing_mhc_values	rank_el or score_el is NaN	0	—
+conflicting_outcome	equal Pos/Neg votes for binding_core	—	1202
+no_proteome_neighbor	no human proteome peptide within H≤3 of binding_core	—	1110
+unsupported_allele	HLA allele not in NeoPrecis allele_code_mapping.json	—	0
